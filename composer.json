@@ -1,0 +1,17 @@
+{
+    "name": "smutn/pdfcreator",
+    "autoload": {
+        "psr-4": {
+            "Smutn\\Pdfcreator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "M0rky123",
+            "email": "smutny.vojta@gmail.com"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^8.2"
+    }
+}

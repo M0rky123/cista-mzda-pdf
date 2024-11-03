@@ -1,6 +1,7 @@
 <?php
-if (!$_SERVER['REQUEST_METHOD'] == 'POST') {
-    echo "You have to fill the form first!";
+if (!$_SERVER['REQUEST_METHOD'] == 'POST' || !isset($_POST['gross_salary'])) {
+    echo "<h1 style='font-family: Arial, sans-serif; color: red; font-weight: 800; padding: 1rem;'>You have to fill the form first!</h1>";
+    die();
 }
 
 require_once __DIR__ . '/../vendor/autoload.php';

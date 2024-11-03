@@ -10,4 +10,5 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   document.getElementById("gross_salary").addEventListener("input", validateNumericInput);
   document.getElementById("children").addEventListener("input", validateNumericInput);
+  document.getElementById("ztpchildren").addEventListener("input", validateNumericInput);
 });
